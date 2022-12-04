@@ -5,6 +5,7 @@ module.exports = {
     colors: {
       'bgdark': '#1F2937',
       'bgmd': '#E5E7EB',
+      'bggrey': '#707070',
       'txtlight': '#F9FAF8',
       'txtmd': '#E5E7EB',
       'txtdrk': '#1F2937',
