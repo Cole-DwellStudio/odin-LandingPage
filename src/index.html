@@ -7,7 +7,7 @@
   <title>Odin Project Landing Page</title>
 </head>
 <body class="">
-  <nav class="bg-bgdark">
+  <nav class="bg-bgdark pl-5 pr-5">
     <div class="max-w-4xl m-auto flex justify-between pt-3 pb-2">
       <div class="text-2xl text-txtlight font-bold">Header Logo</div>
       <ul class="flex gap-4 text-txtmd font-normal items-center">
@@ -17,8 +17,8 @@
       </ul>
     </div>
   </nav>
-  <section class="bg-bgdark">
-    <div class="grid grid-cols-2 max-w-4xl m-auto pt-24 pb-32">
+  <section class="bg-bgdark pl-5 pr-5">
+    <div class="grid md:grid-cols-2 gap-4 max-w-4xl m-auto pt-24 pb-32">
       <div class="pr-8">
         <h1 class="text-5xl font-bold font-sans text-left text-txtlight mb-1">
           This website is awesome
@@ -26,50 +26,67 @@
         <p class="text-txtmd mb-2">
           This website has some subtext that goes here under the main title. It's smaller font and the color is lower contrast.
         </p>
-        <button class="bg-btnblue hover:bg-txtmd rounded-md pt-1 pb-1 pl-7 pr-7">
+        <button class="bg-btnblue hover:bg-txtmd rounded-md pt-1 pb-1 w-28">
           <span class="text-txtlight font-bold">Sign up</span>
         </button>
       </div>
       <div class="bg-gray-500">
-        <img src="" alt="this is a placeholder for an image" class="h-full w-full bg-bgmd">
+        <img src="" alt="this is a placeholder for an image" class="h-56 w-full bg-bgmd">
         <!-- <span class="text-center text-txtmd">this is a placeholder for an image</span> -->
       </div>
     </div>
   </section>
-  <section class="bg-white">
-    <div class="max-w-3xl m-auto pb-24">
+  <section class="bg-white pl-5 pr-5">
+    <div class="max-w-6xl m-auto pb-24">
       <h2 class="text-center text-4xl font-extrabold pt-12 pb-16">Some random information.</h2>
       <div class="">
-        <ul class="flex justify-between text-center">
+        <ul class="flex justify-center flex-wrap sm:flex-nowrap gap-14 text-center text-txtdrk font-medium">
           <li class="w-40">
-            <img src="" alt="image" class="outline-4 outline outline-btnblue rounded-md h-40">
+            <img src="" alt="" class="outline-4 outline outline-btnblue rounded-xl h-40 w-40">
             <p class="pt-2">this is some subtext under an illustration or image</p>
           </li>
           <li class="w-40">
-            <img src="" alt="image" class="outline-4 outline outline-btnblue rounded-md h-40">
+            <img src="" alt="" class="outline-4 outline outline-btnblue rounded-xl h-40 w-40">
             <p class="pt-2">this is some subtext under an illustration or image</p>
           </li>
           <li class="w-40">
-            <img src="" alt="image" class="outline-4 outline outline-btnblue rounded-md h-40">
+            <img src="" alt="" class="outline-4 outline outline-btnblue rounded-xl h-40 w-40">
             <p class="pt-2">this is some subtext under an illustration or image</p>
           </li>
           <li class="w-40">  
-            <img src="" alt="image" class="outline-4 outline outline-btnblue rounded-md h-40">
+            <img src="" alt="" class="outline-4 outline outline-btnblue rounded-xl h-40 w-40">
             <p class="pt-2">this is some subtext under an illustration or image</p>
           </li>
         </ul>
       </div>
     </div>
   </section>
-  <section class="bg-bgmd">
-    <div class="">
-
+  <section class="bg-bgmd p-28">
+    <div class="max-w-4xl m-auto">
+      <blockquote class="font-light italic text-4xl text-txtdrk">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</blockquote>
+      <figcaption class="text-right mt-4 text-2xl font-bold text-txtdrk">- Thor, God of Thunder</figcaption>
     </div>
   </section>
+  <section class="bg-white pt-28 pb-28 pl-5 pr-5">
+    <div class="text-txtlight flex flex-wrap gap-4 bg-btnblue max-w-4xl m-auto rounded-lg justify-between items-center p-8 sm:pl-28 sm:pr-28">
+      <div>
+        <h2 class="font-bold text-xl text-white">Call to action! It's time!</h2>
+        <p class="text-txtmd font-medium">Sign up for our product by clicking that button right over there!</p>
+      </div>
+      <div>
+        <button class="bg-btnblue outline outline-txtlight outline-2 hover:bg-txtmd rounded-md w-28 pt-1 pb-1">
+          <span class="text-txtlight font-bold">Sign up</span>
+        </button>
+      </div>
+    </div>
+  </section>
+  <footer class="w-full text-center bg-bgdark p-10 text-txtlight">
+    <span class="">Copyright © The Odin Project 2021</span>
+  </footer>
 </body>
 </html>
 <style>
-    {
+     {
     outline: 1px black solid;
   }
 </style>
